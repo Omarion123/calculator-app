@@ -6,6 +6,7 @@
     <link rel="icon" href="icon.png">
     <title>calculator app</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script defer src="Ncalculator.js"></script>
 </head>
 <body>
@@ -43,7 +44,7 @@
         <div class="calculator">
         <section class="header">
             <h1>Calculator</h1>
-            <input type="text" id="display">
+            <input type="text" id="display" disabled>
         </section>
         <div class="row">
             <button onclick="getNumber(1)">1</button>
@@ -66,7 +67,7 @@
         <div class="row">
             <button onclick="getNumber(0)">0</button>
             <button class="operator divide" onclick="getOperator('/')">/</button>
-            <button onclick="operate()">=</button>
+            <button onclick="operate()" class="equal">=</button>
             <button id="clear" onclick="clearDisplay()">Clear</button>
         </div>
     </body>

@@ -50,6 +50,9 @@ body {
   font-size: 24px;
   margin: 0;
   padding: 0;
+  animation: heartBeat;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
 
 #display {
@@ -77,6 +80,8 @@ body {
 
 .calculator button:hover {
   background-color: #ccc;
+  /* animation: flash;
+  animation-duration: 2s; */
 }
 
 .calculator button:active {
@@ -101,21 +106,36 @@ body {
 /* Operator colors */
 .calculator .row .operator {
   background-color: #ff9800; /* Orange */
+  font-size: 31px;
+  color: white;
 }
 
 /* Additional operator colors for visual distinction */
 .calculator .row .operator.add {
   background-color: #e91e63; /* Pink */
+  font-size: 31px;
+  color: white;
 }
 
 .calculator .row .operator.subtract {
   background-color: #9c27b0; /* Purple */
+  font-size: 31px;
+  color: white;
 }
 
 .calculator .row .operator.multiply {
   background-color: #03a9f4; /* Blue */
+  font-size: 31px;
+  color: white;
 }
 
 .calculator .row .operator.divide {
   background-color: #4caf50; /* Green */
+  font-size: 31px;
+  color: white;
+}
+.equal {
+  animation: heartBeat;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
 }
