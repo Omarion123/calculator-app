@@ -116,9 +116,19 @@ body {
   font-size: 31px;
   color: white;
 }
+.calculator .row .operator.add:hover {
+  background-color: #3e3c7e; /* Pink */
+  font-size: 31px;
+  color: white;
+}
 
 .calculator .row .operator.subtract {
   background-color: #9c27b0; /* Purple */
+  font-size: 31px;
+  color: white;
+}
+.calculator .row .operator.subtract:hover {
+  background-color: #4227b0; /* Purple */
   font-size: 31px;
   color: white;
 }
@@ -128,14 +138,19 @@ body {
   font-size: 31px;
   color: white;
 }
+.calculator .row .operator.multiply:hover {
+  background-color: #17137e; /* Blue */
+  font-size: 31px;
+  color: white;
+}
 
 .calculator .row .operator.divide {
   background-color: #4caf50; /* Green */
   font-size: 31px;
   color: white;
 }
-.equal {
-  animation: heartBeat;
-  /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
+.calculator .row .operator.divide:hover {
+  background-color: #1f1b76; /* Green */
+  font-size: 31px;
+  color: white;
 }
