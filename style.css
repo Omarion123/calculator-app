@@ -1,98 +1,121 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #2196F3, #FF9800);
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(
+    150deg,
+    hsl(240deg 100% 20%) 0%,
+    hsl(224deg 94% 23%) 11%,
+    hsl(207deg 89% 27%) 23%,
+    hsl(191deg 83% 31%) 34%,
+    hsl(174deg 78% 35%) 45%,
+    hsl(158deg 74% 39%) 56%,
+    hsl(141deg 69% 43%) 67%,
+    hsl(125deg 65% 47%) 78%,
+    hsl(108deg 66% 52%) 89%,
+    hsl(92deg 75% 57%) 100%
+  );
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .calculator {
-    max-width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    90deg,
+    hsl(325deg 33% 52%) 0%,
+    hsl(326deg 33% 58%) 17%,
+    hsl(327deg 34% 64%) 39%,
+    hsl(328deg 35% 70%) 59%,
+    hsl(328deg 35% 76%) 74%,
+    hsl(329deg 36% 82%) 85%,
+    hsl(329deg 37% 88%) 92%,
+    hsl(330deg 38% 94%) 97%,
+    hsl(0deg 0% 100%) 100%
+  );
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .header {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .header h1 {
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 #display {
-    width: 100%;
-    height: 50px;
-    font-size: 24px;
-    text-align: right;
-    margin-bottom: 20px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .calculator button {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    margin: 5px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #e0e0e0;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
 }
 
 .calculator button:hover {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 .calculator button:active {
-    background-color: #b3b3b3;
+  background-color: #b3b3b3;
 }
 
 .calculator .row {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .calculator .row button {
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    margin: 5px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
 /* Operator colors */
 .calculator .row .operator {
-    background-color: #ff9800; /* Orange */
+  background-color: #ff9800; /* Orange */
 }
 
 /* Additional operator colors for visual distinction */
 .calculator .row .operator.add {
-    background-color: #e91e63; /* Pink */
+  background-color: #e91e63; /* Pink */
 }
 
 .calculator .row .operator.subtract {
-    background-color: #9c27b0; /* Purple */
+  background-color: #9c27b0; /* Purple */
 }
 
 .calculator .row .operator.multiply {
-    background-color: #03a9f4; /* Blue */
+  background-color: #03a9f4; /* Blue */
 }
 
 .calculator .row .operator.divide {
-    background-color: #4caf50; /* Green */
+  background-color: #4caf50; /* Green */
 }
